@@ -14,5 +14,53 @@
         <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
     
+    <!--Några krav på formuläret:
+
+        Metoden som ska användas är post
+        Ett textfält finns
+        En grupp med radioknappar eller kryssrutor används
+        En dropdownlista finns
+        En submit-knapp finns
+        Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.-->
+    
+    <h3>Kontakta mig</h3>
+
+    <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <fieldset>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="Namn"/><br>
+            Telefonnummer:<input type="text"/><br>
+            E-post:<input type="text"/>
+            
+            <p>
+                <label for="contact">Kontakt dig via:</label>
+                <select id="contact" name="Kontakt">
+                    <option value="E-mail">E-mail</option>
+                    <option value="Telefon">Telefon</option>
+                </select>
+            </p>
+        </fieldset>
+        
+        
+        <br><fieldset>
+            <label for="subject">Ärende:</label><br>
+            <input id="subject" name="Ärende"/><br>
+            <input type="checkbox" />Fråga<br>
+            <input type="checkbox"/>Kritik<br>
+            
+            <label for="subject">Ämne:</label>
+            <input type="text" id="subject" name="Ämne"/>
+        </fieldset>
+        
+        
+        <br><fieldset>
+            <legend>Skrivfält</legend>
+            <textarea rows="5" cols="55"></textarea>
+        </fieldset>
+            
+            <br><input type="submit" value="Skicka" />
+        
+    </form>
+    
 </body>
 </html>
