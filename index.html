@@ -2,24 +2,35 @@
 <html lang="sv">
 <head> 
     <meta charset="utf-8" />
-    <title><h1>Sofia Melhus</h1></title>
-    
+    <title>Sofia Melhus</title>
+    <link rel="stylesheet" href="pages/pics/style.css">
 </head>
-<body>
-<h1>Välkommen</h1>
-    <h2>Kursblogg</h2>
-    <p>Hej alla, här kommer jag att presentera allt material som tillhör kursen.</p>
-    
-    <ul>
-        <li><a href="index.html">Start</a> <!-- relativ adress--></li>
-        <li><a href="pages/presentation.html">Presentation</a></li>
-        <li><a href="pages/laborationer.html">Laborationer</a></li>
-        <li><a href="pages/kontakt.html">Kontakt</a></li>
-    </ul>
-    
-    <img src="pages/pics/Logga.png" width=198 height=200 alt="Logga" />
 
-    <br><em>Skapat av Sofia 2013-11-18</em>
-    <div>Ansvarig för materialet på denna sida är Sofia Melhus</div>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Välkommen</h1>
+        <h2>Kursblogg</h2>
+        <p>Hej alla, här kommer jag att presentera allt material som tillhör kursen.</p>
+    </div>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html" class="start">Start</a> <!-- relativ adress--></li>
+            <li><a href="pages/presentation.html" class="presentation">Presentation</a></li>
+            <li><a href="pages/laborationer.html" class="laborationer">Laborationer</a></li>
+            <li><a href="pages/kontakt.html" class="kontakt">Kontakt</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <img src="pages/pics/Logga.png" width=198 height=200 alt="Logga" />
+        <br><em>Skapat av Sofia 2013-11-18</em>
+    </div>
+    
+    <div id="footer">
+        Ansvarig för materialet på denna sida är Sofia Melhus
+    </div>
+</div>
 </body>
 </html>

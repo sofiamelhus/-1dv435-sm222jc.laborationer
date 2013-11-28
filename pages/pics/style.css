@@ -1,0 +1,74 @@
+#container
+{
+    width: 1200px;
+    height: 960px;
+    margin: 0 auto;
+}
+#header
+{
+    width: 1200px; border: 3px groove black; margin-top: 5px; text-align: center;
+    background: #5CCCCC;
+}
+
+#navigation
+{
+    width: 150px; border: 3px groove black; margin-top: 5px;
+    background: #B3EDEB;
+}
+#content
+{
+    width: 1020px; border: 3px groove black; height: 250px; margin-top: 5px; text-align: center;
+    background: #B3EDEB;
+}
+#footer
+{
+    width: 1200px; border: 3px groove black; height: 30px; margin-top: 5px;
+    background: #5CCCCC;
+}
+
+img {border: 4px solid; margin-top: 5px; border-color: #278F8B;}
+#navigation ul li
+{
+    color: #1C3887; list-style-type:none;
+}
+
+.start:visited{
+    color: #1C3887;
+    text-decoration: none;
+}
+
+.presentation:visited{
+    color: #1C3887;
+    text-decoration: none;
+}
+
+.laborationer:visited{
+    color: #1C3887;
+    text-decoration: none;
+}
+
+.kontakt:visited{
+    color: #1C3887;
+    text-decoration: none;
+}
+
+.start:hover{
+    color: #B3EDEB;
+    text-decoration: none;
+}
+
+.presentation:hover{
+    color: #B3EDEB;
+    text-decoration: none;
+}
+
+.laborationer:hover{
+    color: #B3EDEB;
+    text-decoration: none;
+}
+
+.kontakt:hover{
+    color: #B3EDEB;
+    text-decoration: none; ;
+}
+
