@@ -2,65 +2,68 @@
 <html lang="sv">
 <head> 
     <meta charset="utf-8" />
-    <title><h1>Kontakt</h1></title>
-    
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="pics/style.css">
 </head>
+
 <body>
-<h1>Kontakt</h1>
-    <ul>
-        <li><a href="../index.html">Start</a></li> <!-- relativ adress-->
-        <li><a href="presentation.html">Presentation</a></li>
-        <li><a href="laborationer.html">Laborationer</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
+    <div id="header">
+        <h1>Kontakt</h1>
+        <h2>Kontaktinformation</h2>
+    </div>
     
-    <!--Några krav på formuläret:
-
-        Metoden som ska användas är post
-        Ett textfält finns
-        En grupp med radioknappar eller kryssrutor används
-        En dropdownlista finns
-        En submit-knapp finns
-        Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.-->
-    
-    <h3>Kontakta mig</h3>
-
-    <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-        <fieldset>
-            <label for="name">Namn:</label>
-            <input type="text" id="name" name="Namn"/><br>
-            Telefonnummer:<input type="text"/><br>
-            E-post:<input type="text"/>
+    <section>
+        <nav id="navigation">
+            <ul>
+                <li><a href="../index.html" class="start">Start</a> <!-- relativ adress--></li>
+                <li><a href="presentation.html" class="presentation">Presentation</a></li>
+                <li><a href="laborationer.html" class="laborationer">Laborationer</a></li>
+                <li><a href="kontakt.html" class="kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <h3>Kontakta mig</h3>
             
+            <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            
+            <fieldset>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="Namn"/><br>
+                Telefonnummer:<input type="text"/><br>
+                E-post:<input type="text"/>
             <p>
-                <label for="contact">Kontakt dig via:</label>
+                <label for="contact">Kontakta dig via:</label>
                 <select id="contact" name="Kontakt">
                     <option value="E-mail">E-mail</option>
                     <option value="Telefon">Telefon</option>
                 </select>
             </p>
-        </fieldset>
-        
-        
-        <br><fieldset>
-            <label for="subject">Ärende:</label><br>
-            <input id="subject" name="Ärende"/><br>
-            <input type="checkbox" />Fråga<br>
-            <input type="checkbox"/>Kritik<br>
+            </fieldset>
             
-            <label for="subject">Ämne:</label>
-            <input type="text" id="subject" name="Ämne"/>
-        </fieldset>
-        
-        
-        <br><fieldset>
-            <legend>Skrivfält</legend>
-            <textarea rows="5" cols="55"></textarea>
-        </fieldset>
+            <br><fieldset>
+                <label for="subject">Ärende:</label><br>
+                <input id="subject"/><br>
+                <input type="checkbox" />Fråga<br>
+                <input type="checkbox"/>Kritik<br>
+            
+                <label for="subject">Ämne:</label>
+                <input type="text"/>
+            </fieldset>
+            
+            <br><fieldset>
+                <legend>Skrivfält</legend>
+                <textarea rows="5" cols="55"></textarea>
+            </fieldset>
             
             <br><input type="submit" value="Skicka" />
-        
-    </form>
+
+
+            </form>
+        </div>
+    </section>
     
+    <div id="footer">
+        <em>Ansvarig för materialet på denna sida är Sofia Melhus</em>
+    </div>
 </body>
 </html>

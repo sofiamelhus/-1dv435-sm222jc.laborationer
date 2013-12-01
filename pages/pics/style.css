@@ -14,8 +14,7 @@ body{
 
 section{
     width:1200px;
-    height:auto;
-    min-height:300px;
+    min-height:2000px;
     background:#FBFEDF;
     margin-right:auto;
     margin-left:auto;
@@ -31,7 +30,7 @@ section{
 #content{
     width:90%;
     height:auto;
-    min-height:300px;
+    max-height:2000px;
     background:#B3EDEB;
     float:right;/*Vara på höger sida*/
 }
@@ -54,38 +53,47 @@ img {
 h1{
     padding:0px;
     margin:0px;
-    color:#278F8B;
-    font-size:45px
+    color:#375F89;
+    font-size:60px;
+    font-family:Adobe Fangsong Std R;
 }
 
 h2{
     padding:0px;
     margin:5px;
-    color:#278F8B;
+    color:#375F89;
+    font-family:Adobe Fangsong Std R;
 }
 
 p{
     padding:0px;
     margin:10px;
-    color:#278F8B;
+    color:#375F89;
+    font-family:Adobe Fangsong Std R;
 }
+
+div{
+    color:#375F89;
+    font-family:Adobe Fangsong Std R;
+}
+
 
 /*-----Navigation-----*/
 
-ul{
+nav ul{
     list-style-type:none; /*ta bort punkt*/
     padding:0px;
     margin:0px;
 }
 
-li{
+nav li{
+    margin:5px;
 }
 
-a{
+nav a{
     color:#FFF;/*byta färg*/
-    background:B3EDEB;/*byta bakgrund*/
+    background:#B3EDEB;/*byta bakgrund*/
     padding:5px;
-    border-radius:15px;/*runda hörn*/
     text-decoration:none;/*blocka bort streck under*/
     display:block; /*möjlighet att trycka på hela raden*/
     text-transform:uppercase;/*alla tecken stora*/
@@ -93,8 +101,8 @@ a{
     font-size:14px;
 }
 
-a:hover{
-    
+nav a:hover{
+    background:#FFF;
 }
 
 
