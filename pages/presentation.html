@@ -2,21 +2,27 @@
 <html lang="sv">
 <head> 
     <meta charset="utf-8" />
-    <title><h1>Presentation</h1></title>
+    <title>Presentation</title>
+    <link rel="stylesheet" href="pics/style.css">
 </head>
 <body>
-<h1>Presentation</h1>
-
-<!-- Texten nedan är min presentation -->
-    <ul>
-        <li><a href="../index.html">Start</a></li> <!-- relativ adress-->
-        <li><a href="presentation.html">Presentation</a></li>
-        <li><a href="laborationer.html">Laborationer</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
-
-
-    <h3>Om mig</h3>
+<body>
+    <div id="header">
+        <h1>Presentation</h1>
+    </div>
+    
+    <section>
+        <nav id="navigation">
+            <ul>
+                <li><a href="../index.html" >Start</a> <!-- relativ adress--></li>
+                <li><a href="presentation.html" id="active">Presentation</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    
+        <div id="content">
+                <h3>Om mig</h3>
     <ul>
         <li>Namn: Sofia Melhus</li>
         <li>Ålder: 20 år</li>
@@ -78,5 +84,12 @@
         <li><a href="http://tasteline.com/">Tasteline</a></li>
         <li><a href="http://lnu.se/">Linnéuniversitetet</a></li>
     </ul>
+
+        </div>
+    </section>
+    
+    <div id="footer">
+        <em>Ansvarig för materialet på denna sida är Sofia Melhus</em>
+    </div>
 </body>
 </html>
