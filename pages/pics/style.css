@@ -10,7 +10,7 @@ body{
     background:#5CCCCC;
     background-image:url(Logga.png);
     background-repeat:no-repeat;
-    background-position:right;
+    background-position:center 10px;
     background-size:150px;
     margin-right:auto;
     margin-left:auto;
@@ -37,8 +37,8 @@ section{
     float:right;/*Vara på höger sida*/
     background:#B3EDEB;
     background-image:url(himmel.jpg);
-    background-size:110px;
-    background-position:right top;
+    background-size:100px;
+    background-position:right top 2.5px;
     background-repeat:no-repeat;
 }
 
@@ -151,6 +151,28 @@ img {
 .mönster{
     float:right;
     margin-left:20px;
+}
+
+/*-----Tabell-----*/
+table{ 
+    border-collapse: collapse;
+    font-family: Futura, Adobe Fangsong Std R, sans-serif;
+    margin:20px;
+}
+caption{ 
+    font-size: larger; 
+    margin: 1em auto; 
+}
+th, td{ 
+    padding: .65em; 
+}
+th, thead{ 
+    background: #000; 
+    color: #fff; 
+    border: 1px solid #000;
+}
+td{ 
+    border: 1px solid #777; 
 }
 
 
