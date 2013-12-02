@@ -100,6 +100,7 @@ p{
 div{
     color:#375F89;
     font-family:Adobe Fangsong Std R;
+    margin-bottom:0px;
 }
 
 a:hover{
@@ -149,7 +150,10 @@ img {
 
 .mönster{
     float:right;
+    padding:0px;
     margin-left:20px;
+    margin-right:200px;
+    margin-top:20px;
 }
 
 /*-----Tabell-----*/
@@ -187,11 +191,6 @@ label{
     margin:0px;
 }
 
-select{
-    padding:0px;
-    margin:0px;
+fieldset{
+    margin:5px;
 }
-
-
-
-
