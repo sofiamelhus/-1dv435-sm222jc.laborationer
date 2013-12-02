@@ -36,7 +36,6 @@ section{
     height:auto;
     float:right;/*Vara på höger sida*/
     background:#B3EDEB;
-
 }
 
 
@@ -49,9 +48,8 @@ section{
     clear:both;/*löser problemet med float*/
     background-image:url(himmel.jpg);
     background-size:820px;
-    background-repeat:no-repeat;
     background-position:right;
-    
+    background-repeat:no-repeat;
 }
 
 
@@ -176,7 +174,23 @@ td{
     border: 1px solid #777; 
 }
 
+/*-----Formulär-----*/
 
+form{
+    width:700px;
+    padding:5px;
+    margin-left:10px;
+}
+
+label{
+    padding:0px;
+    margin:0px;
+}
+
+select{
+    padding:0px;
+    margin:0px;
+}
 
 
 
