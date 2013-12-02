@@ -36,10 +36,7 @@ section{
     height:auto;
     float:right;/*Vara på höger sida*/
     background:#B3EDEB;
-    background-image:url(himmel.jpg);
-    background-size:100px;
-    background-position:right top 2.5px;
-    background-repeat:no-repeat;
+
 }
 
 
@@ -50,6 +47,10 @@ section{
     margin-right:auto;
     margin-left:auto;
     clear:both;/*löser problemet med float*/
+    background-image:url(himmel.jpg);
+    background-size:820px;
+    background-repeat:no-repeat;
+    background-position:right;
     
 }
 
