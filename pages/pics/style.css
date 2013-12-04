@@ -25,14 +25,14 @@ section{
 }
 
 #navigation{
-    width:10%;
+    width:15%;
     height:auto;
     background:#B3EDEB;
     float:left;
 }
 
 #content{
-    width:90%;
+    width:85%;
     height:auto;
     float:right;/*Vara på höger sida*/
     background:#B3EDEB;
@@ -101,6 +101,13 @@ div{
     color:#375F89;
     font-family:Adobe Fangsong Std R;
     margin-bottom:0px;
+}
+
+#content a{
+    color:#FF5058;
+    font-weight:bold;
+    margin:0px;
+    padding:0px;
 }
 
 a:hover{
