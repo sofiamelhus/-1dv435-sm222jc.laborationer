@@ -87,6 +87,7 @@ h4{
 p{
     padding:0px;
     margin:5px;
+    margin-left:5px;
     color:#375F89;
     font-family:Adobe Fangsong Std R;
 }
@@ -179,10 +180,10 @@ th, td{
 th, thead{ 
     background: #000; 
     color: #fff; 
-    border: 1px solid #000;
+    border: 1px solid #FF5058;
 }
 td{ 
-    border: 1px solid #777; 
+    border: 1px solid #FF5058; 
 }
 
 /*-----Formulär-----*/
