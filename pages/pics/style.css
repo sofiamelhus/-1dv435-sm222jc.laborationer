@@ -111,23 +111,43 @@ div{
     padding:0px;
 }
 
-a:hover{
-    text-decoration:underline;
+ul{
+    list-style-type:none;
 }
+
 
 /*-----Navigation-----*/
 
-ul{
+nav ul{
     list-style-type:none; /*ta bort punkt*/
     padding:0px;
-    margin:0px;
+    margin-left:0px;
+    
 }
 
-li{
-    margin:5px;
+nav li{
+    margin:10px;
 }
 
-a{
+#iconsprite a{
+    width:16px;
+    height:16px;
+    display:block;
+    background-image:url(sprite.png);
+    background-repeat:no-repeat;
+}
+#start{background-position:0 0;}
+#start:hover{background-position:0 -48px;}
+#presentation{background-position:0 -191px;}
+#presentation:hover{background-position:0 -239px;}
+#labb{background-position:0 -94px;}
+#labb:hover{background-position:0 -142px;}
+#contact{background-position:0 -286px;}
+#contact:hover{background-position:0 -334px;}
+
+/*Fick inte texten att flytta sig mer till höger utan annat följde med.*/
+
+nav a{
     color:#FFF;/*byta färg*/
     background:#B3EDEB;/*byta bakgrund*/
     padding:5px;
@@ -142,7 +162,7 @@ nav a:hover{
     background:#FFF;
 }
 
-#active{
+nav #active{
     font-weight:bold;
     color:#375F89;
 }
@@ -202,3 +222,4 @@ label{
 fieldset{
     margin:5px;
 }
+
