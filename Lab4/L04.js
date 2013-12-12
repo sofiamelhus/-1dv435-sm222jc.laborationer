@@ -168,7 +168,6 @@ function test11(arr) {
 function test12(arr) {
     var arr_length = arr.length;
     var total = 0;
-    var medel = arr.length/total;
     
     for(var a = 0; a < arr_length; a++){
         console.log(arr[a]);
@@ -178,8 +177,6 @@ function test12(arr) {
         total+= arr[i];
     }
     console.log(total);
-    
-    return medel;
     
 }
 
