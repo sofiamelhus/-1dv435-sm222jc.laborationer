@@ -125,18 +125,18 @@ function test9(number) {
 
 function test10(epost, namn) {
     
-	if(epost === (" ") || namn === (" "))
+	if((epost === (" ")) || (namn === (" ")))
     {
-        return ("Du har glömt att ange namn eller e-post");
+        console.log("Du har glömt att ange namn eller e-post");
     }
     
-    else if((epost.indexOf("@"))-1)
+    else if(epost.indexOf("@"))
     {
-        return ("Ditt meddelande skickas");
+        console.log("Ditt meddelande skickas");
     }
     else
     {
-        return ("Ange en e-postadress");
+        console.log("Ange en e-postadress");
     }
 }
 
