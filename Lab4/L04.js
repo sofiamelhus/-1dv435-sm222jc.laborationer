@@ -125,12 +125,12 @@ function test9(number) {
 
 function test10(epost, namn) {
     
-	if((epost === (" ")) || (namn === (" ")))
+	if((epost.length === " ") || (namn.length === " "))
     {
         console.log("Du har glömt att ange namn eller e-post");
     }
     
-    else if(epost.indexOf("@"))
+    else if(epost.indexOf("@")===1)
     {
         console.log("Ditt meddelande skickas");
     }
@@ -149,7 +149,13 @@ function test10(epost, namn) {
 // ut det mittersta indexet i arrayen
 //(se länktips i handledningen)
 function test11(arr) {
-    
+        var arr_length = arr.length;
+			
+        for(var i = 0; i < arr_length; i++){
+	
+            console.log(arr[i]);
+        }
+     return Math.round(arr_length(arr.length)/2);
 }
 
 /*
