@@ -130,7 +130,7 @@ function test10(epost, namn) {
         console.log("Du har glömt att ange namn eller e-post");
     }
     
-    else if(epost.indexOf("@")===1)
+    else if(epost.indexOf("@"))
     {
         console.log("Ditt meddelande skickas");
     }
