@@ -127,16 +127,16 @@ function test10(epost, namn) {
 
 	if((epost.length === 0) || (namn.length === 0))
     {
-        console.log("Du har glömt att ange namn eller e-post");
+        return ("Du har glömt att ange namn eller e-post");
     }
     
-    else if(epost.indexOf("@"))
+    else if(epost.indexOf("@")>=0)
     {
-        console.log("Ditt meddelande skickas");
+        return ("Ditt meddelande skickas");
     }
     else
     {
-        console.log("Ange en e-postadress");
+        return ("Ange en e-postadress");
     }
 }
 
@@ -150,12 +150,9 @@ function test10(epost, namn) {
 //(se länktips i handledningen)
 function test11(arr) {
         var arr_length = arr.length;
-			
-        for(var i = 0; i < arr_length; i++){
+        var middleelement = Math.round(arr_length/2)-1;
+        return arr[middleelement];
 	
-            console.log(arr[i]);
-        }
-     return Math.round(arr_length(arr.length)/2);
 }
 
 /*
@@ -170,14 +167,10 @@ function test12(arr) {
     var total = 0;
     
     for(var a = 0; a < arr_length; a++){
-        console.log(arr[a]);
-    }
-    
-    for (var i = arr_length-1; i >= 0 ; i--){
-        total+= arr[i];
+        total+= arr[a];
     }
     console.log(total);
-    
+    return total/arr_length;
 }
 
 
