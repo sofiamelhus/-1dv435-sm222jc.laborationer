@@ -124,8 +124,8 @@ function test9(number) {
 //(se länktips i handledningen)
 
 function test10(epost, namn) {
-    
-	if((epost.length === " ") || (namn.length === " "))
+
+	if((epost.length === 0) || (namn.length === 0))
     {
         console.log("Du har glömt att ange namn eller e-post");
     }
