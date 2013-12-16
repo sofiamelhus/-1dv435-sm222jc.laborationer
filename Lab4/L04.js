@@ -125,11 +125,13 @@ function test9(number) {
 
 function test10(epost, namn) {
 
+    //kod om strängarna för epost eller namn är tomma 
 	if((epost.length === 0) || (namn.length === 0))
     {
+        //om så returnerar text
         return ("Du har glömt att ange namn eller e-post");
     }
-    
+    //om ett post innehåller @, då första börjar på noll ska det vara större eller lika med
     else if(epost.indexOf("@")>=0)
     {
         return ("Ditt meddelande skickas");
@@ -149,6 +151,8 @@ function test10(epost, namn) {
 // ut det mittersta indexet i arrayen
 //(se länktips i handledningen)
 function test11(arr) {
+        //skapar variabel för längd på arryen arr 
+        //skapar variabel ett mittenelement där jag använder math.round för att få fram värdet och sedan -1 för att avrunda rätt
         var arr_length = arr.length;
         var middleelement = Math.round(arr_length/2)-1;
         return arr[middleelement];
@@ -163,12 +167,14 @@ function test11(arr) {
 // Medelvärdet är summan av alla tal i arrayen delat med antalet tal i arrayen
 // Använd en for-loop för att lösa problemet
 function test12(arr) {
+    //skapar variabel för längden på arrayen arr och skapar en variabel för den totala summan
     var arr_length = arr.length;
     var total = 0;
-    
+    //räknar ut summan på arrayens längd 
     for(var a = 0; a < arr_length; a++){
         total+= arr[a];
     }
+    //summan är uträknad
     console.log(total);
     return total/arr_length;
 }
