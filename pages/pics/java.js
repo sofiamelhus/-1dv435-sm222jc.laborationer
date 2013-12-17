@@ -2,9 +2,10 @@ var linkhideShow = document.getElementById("hideShow");
 var showtable = document.getElementById("show");
 
 linkhideShow.onclick = function() {
-       if (document.getElementById(showtable).display === "none")
-                showtable.style.display = 'block';
+    //om tabellen döljs så ska den visas 
+      if (showtable.style.display === "none")
+                showtable.style.display = "block";
+    //annars ska tabllen döljas
         else
-                showtable.style.display = 'none';                
-
+                showtable.style.display = "none";
 };

@@ -208,7 +208,7 @@ td{
     border: 1px solid #FF5058; 
 }
 
-
+/*döljer tabell*/
 #show{
     display:none;
 }
@@ -228,4 +228,14 @@ label{
 fieldset{
     margin:5px;
 }
+
+/*-----Omvandlare-----*/
+
+
+
+
+
+
+
+
 
