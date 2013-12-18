@@ -208,9 +208,13 @@ td{
     border: 1px solid #FF5058; 
 }
 
-/*döljer tabell*/
-#show{
+/*döljer och visar tabeller*/
+.hide{
     display:none;
+}
+
+.show{
+    display:block;
 }
 /*-----Formulär-----*/
 

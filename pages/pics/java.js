@@ -1,11 +1,16 @@
-var linkhideShow = document.getElementById("hideShow");
-var showtable = document.getElementById("show");
+/*-----Tabell-----*/
+var linkhideShow = document.querySelector("#hideshow");
+var show = document.querySelector(".show");
+var hide = document.querySelector(".hide");
 
 linkhideShow.onclick = function() {
     //om tabellen döljs så ska den visas 
-      if (showtable.style.display === "none")
-                showtable.style.display = "block";
+      if (){
+          
+        }
     //annars ska tabllen döljas
-        else
-                showtable.style.display = "none";
+        else{
+            
+        }
+            
 };
