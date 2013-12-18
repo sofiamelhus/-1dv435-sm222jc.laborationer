@@ -5,6 +5,30 @@ body {
   font-size : 12pt;
 }
 
+#content{
+    color:#000000;
+}
+
+h3{
+    color:#000000;
+}
+
+h2{
+    color:#000000;
+}
+
+h4{
+    color:#000000;
+}
+
+p{
+    color:#000000;
+}
+
+ul{
+    color:#000000;
+}
+
 a {
   text-decoration : underline;
   color : #0000ff;
