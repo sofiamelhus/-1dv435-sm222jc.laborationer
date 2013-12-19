@@ -1,4 +1,6 @@
 #menu a{
+    width:100px;
+    margin-left:10px;
     color:#FFF;/*byta färg*/
     background:#B3EDEB;/*byta bakgrund*/
     padding:5px;
@@ -11,4 +13,29 @@
 
 #menu a:hover{
     border: 2px solid;
+}
+
+h1{
+    padding:8px;
+    color:#375F89;
+    font-size:60px;
+    font-family:Adobe Fangsong Std R;
+}
+input{
+    color:#375F89;
+    font-family:Adobe Fangsong Std R;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+label{
+    color:#375F89;
+    font-family:Adobe Fangsong Std R;
+    margin-left:10px;
+}
+
+p{
+     color:#375F89;
+    font-family:Adobe Fangsong Std R;
+    margin-left:10px;
 }

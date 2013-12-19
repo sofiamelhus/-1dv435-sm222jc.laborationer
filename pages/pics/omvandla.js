@@ -15,7 +15,8 @@ omvandla.onclick = function (e){
     else{
         valueconverted.innerHTML = "Dollar: " + input.value*dollar + " Euro: " + input.value*euro + "<br>" + valueconverted.innerHTML;
         console.log(("Dollar:" + input.value*dollar) + ("Euro:" + input.value*euro));
-        e.preventDefault(); 
-
+        e.preventDefault();
     }
 };
+
+//använda to.Fixed(2);
