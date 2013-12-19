@@ -3,15 +3,16 @@
 
 var input = document.querySelector("#kronor");
 var omvandla = document.querySelector("#convert");
-var kronor = 0;
-var dollar = 6.57;
-var euro = 9.04;
+
+var dollar = 0.51;
+var euro = 0.11;
 
 omvandla.onclick = function (){
     if(isNaN(input.value)){
         alert ("Fyll i siffror");
     }
     else{
-        alert ("Siffror ifyllda");
+        //alert ("Siffror ifyllda")
+        console.log(("Dollar:" + input.value*dollar) + ("Euro:" + input.value*euro));
     }
 };

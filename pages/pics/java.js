@@ -1,16 +1,12 @@
 /*-----Tabell-----*/
-var linkhideShow = document.querySelector("#hideshow");
-var show = document.querySelector(".show");
-var hide = document.querySelector(".hide");
+var table = document.getElementById("table1");
+var link = document.getElementById("link");
+ link.onclick = function() {
+        if(table.style.display == "none"){
+            table.style.display = "block";
+        }else{
+            table.style.display = "none";
+            console.log("Test");
+        }
 
-linkhideShow.onclick = function() {
-    //om tabellen döljs så ska den visas 
-      if (){
-          
-        }
-    //annars ska tabllen döljas
-        else{
-            
-        }
-            
 };

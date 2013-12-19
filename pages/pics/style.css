@@ -209,13 +209,11 @@ td{
 }
 
 /*döljer och visar tabeller*/
-.hide{
-    display:none;
-}
 
-.show{
+.table {
     display:block;
 }
+
 /*-----Formulär-----*/
 
 form{
