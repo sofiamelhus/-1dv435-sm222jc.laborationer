@@ -1,0 +1,14 @@
+#menu a{
+    color:#FFF;/*byta färg*/
+    background:#B3EDEB;/*byta bakgrund*/
+    padding:5px;
+    text-decoration:none;/*blocka bort streck under*/
+    display:block; /*möjlighet att trycka på hela raden*/
+    text-transform:uppercase;/*alla tecken stora*/
+    font-family:Adobe Fangsong Std R;
+    font-size:14px;
+}
+
+#menu a:hover{
+    border: 2px solid;
+}
