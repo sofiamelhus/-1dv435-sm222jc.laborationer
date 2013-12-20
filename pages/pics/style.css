@@ -137,6 +137,7 @@ nav li{
     display:block;
     background-image:url(sprite.png);
     background-repeat:no-repeat;
+    
 }
 #start{background-position:0 0;}
 #start:hover{background-position:0 -48px;}
@@ -146,6 +147,7 @@ nav li{
 #labb:hover{background-position:0 -142px;}
 #contact{background-position:0 -286px;}
 #contact:hover{background-position:0 -334px;}
+
 
 /*Fick inte texten att flytta sig mer till höger utan annat följde med.*/
 
@@ -158,13 +160,16 @@ nav a{
     text-transform:uppercase;/*alla tecken stora*/
     font-family:Adobe Fangsong Std R;
     font-size:14px;
+    padding-left:30px;
 }
 
-nav a:hover{
-    border: 2px solid;
+nav li:hover{
+    border:2px solid;
+    color:#375F89;
+
 }
 
-nav #active{
+nav .active{
     font-weight:bold;
     color:#375F89;
 }
